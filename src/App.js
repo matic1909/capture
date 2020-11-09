@@ -1,7 +1,9 @@
+import AboutUs from "./pages/AboutUs";
+
 function App() {
   return (
     <div className="App">
-      <p>My app.</p>
+      <AboutUs />
     </div>
   );
 }
