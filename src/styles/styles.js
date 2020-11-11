@@ -16,6 +16,7 @@ const Hide = styled.div`
 const Description = styled.div`
   flex: 1;
   padding-right: 5rem;
+  z-index: 2;
   h2 {
     font-weight: lighter;
   }
@@ -24,6 +25,7 @@ const Description = styled.div`
 const Image = styled.div`
   flex: 1;
   overflow: hidden;
+  z-index: 2;
   img {
     width: 100%;
     height: 80vh;
