@@ -1,6 +1,7 @@
-const { default: styled } = require("styled-components");
+import { motion } from "framer-motion";
+import styled from "styled-components";
 
-const Section = styled.div`
+const Section = styled(motion.div)`
   min-height: 90vh;
   display: flex;
   align-items: center;
